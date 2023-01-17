@@ -3,12 +3,14 @@ import java.text.*;
 
 public class ATM {
 	
+	//deposit method
 	public static double depo(double deposit, double balance) {
 		balance = deposit + balance;
 		return balance;
 		
 	}
 	
+	//withdraw method
 	public static double with(double withdraw, double balance) {
 		balance = balance - withdraw;
 		return balance;
